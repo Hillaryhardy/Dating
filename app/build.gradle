@@ -5,7 +5,7 @@ android {
     buildToolsVersion '28.0.3'
 
     defaultConfig {
-        applicationId "ru.ifsoft.chat"
+        applicationId "com.affecto.chat"
         minSdkVersion 15
         targetSdkVersion 27
         versionCode 47

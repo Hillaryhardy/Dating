@@ -118,7 +118,7 @@
         android:layout_height="match_parent"
         android:id="@+id/postContent">
 
-        <ru.ifsoft.chat.view.ResizableImageView
+        <com.affecto.chat.view.ResizableImageView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/itemImg"

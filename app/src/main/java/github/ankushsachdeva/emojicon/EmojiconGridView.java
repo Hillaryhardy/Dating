@@ -26,7 +26,7 @@ import java.util.Arrays;
 
 import github.ankushsachdeva.emojicon.emoji.Emojicon;
 import github.ankushsachdeva.emojicon.emoji.People;
-import ru.ifsoft.chat.R;
+import com.affecto.chat.R;
 
 /**
  * @author Hieu Rocker (rockerhieu@gmail.com)

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="ru.ifsoft.chat">
+    package="com.affecto.chat">
 
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_CORSE_LOCATION" />
@@ -18,7 +18,7 @@
     <uses-feature android:name="android.hardware.location.gps" android:required="false" />
 
     <application
-        android:name=".app.App"
+        android:name="com.affecto.chat.app.App"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -65,7 +65,7 @@
         </activity>
 
         <activity
-            android:name=".AppActivity"
+            android:name="com.affecto.chat.AppActivity"
             android:configChanges="keyboardHidden|orientation"
             android:label="@string/app_name"
             android:screenOrientation="portrait">
@@ -93,155 +93,155 @@
             android:value="@string/default_notification_channel_id" />
 
         <service
-            android:name=".service.MyFcmListenerService">
+            android:name="com.affecto.chat.service.MyFcmListenerService">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>
         </service>
 
         <service
-            android:name=".service.MyService"
+            android:name="com.affecto.chat.service.MyService"
             android:exported="false" />
 
 
         <activity
-            android:name=".LoginActivity"
+            android:name="com.affecto.chat.LoginActivity"
             android:label="@string/title_activity_login"
             android:windowSoftInputMode="stateHidden" />
         <activity
-            android:name=".SignupActivity"
+            android:name="com.affecto.chat.SignupActivity"
             android:label="@string/title_activity_signup"
             android:windowSoftInputMode="stateHidden" />
         <activity
-            android:name=".MainActivity"
+            android:name="com.affecto.chat.MainActivity"
             android:label="@string/title_activity_feeds" />
         <activity
-            android:name=".RecoveryActivity"
+            android:name="com.affecto.chat.RecoveryActivity"
             android:label="@string/title_activity_recovery"
             android:windowSoftInputMode="stateHidden" />
         <activity
-            android:name=".SettingsActivity"
+            android:name="com.affecto.chat.SettingsActivity"
             android:label="@string/title_activity_settings" />
         <activity
-            android:name=".WebViewActivity"
+            android:name="com.affecto.chat.WebViewActivity"
             android:label="@string/title_activity_web_view" />
         <activity
-            android:name=".ChangePasswordActivity"
+            android:name="com.affecto.chat.ChangePasswordActivity"
             android:label="@string/title_activity_change_password"
             android:windowSoftInputMode="stateHidden" />
         <activity
-            android:name=".ServicesActivity"
+            android:name="com.affecto.chat.ServicesActivity"
             android:label="@string/title_activity_services" />
         <activity
-            android:name=".ProfileActivity"
+            android:name="com.affecto.chat.ProfileActivity"
             android:label="@string/title_activity_profile" />
         <activity
-            android:name=".NotificationsActivity"
+            android:name="com.affecto.chat.NotificationsActivity"
             android:label="@string/title_activity_notifications" />
         <activity
-            android:name=".PhotoViewActivity"
+            android:name="com.affecto.chat.PhotoViewActivity"
             android:label="@string/title_activity_photo_view"
             android:theme="@style/PhotoViewTheme" />
         <activity
-            android:name=".LikesActivity"
+            android:name="com.affecto.chat.LikesActivity"
             android:label="@string/title_activity_likes" />
         <activity
-            android:name=".AccountSettingsActivity"
+            android:name="com.affecto.chat.AccountSettingsActivity"
             android:label="@string/title_activity_account_settings"
             android:windowSoftInputMode="stateHidden" />
         <activity
-            android:name=".BlackListActivity"
+            android:name="com.affecto.chat.BlackListActivity"
             android:label="@string/title_activity_black_list" />
         <activity
-            android:name=".DialogsActivity"
+            android:name="com.affecto.chat.DialogsActivity"
             android:label="@string/title_activity_dialogs" />
         <activity
-            android:name=".ChatActivity"
+            android:name="com.affecto.chat.ChatActivity"
             android:label="@string/title_activity_chat"
             android:windowSoftInputMode="stateHidden" />
         <activity
-            android:name=".NotificationsSettingsActivity"
+            android:name="com.affecto.chat.NotificationsSettingsActivity"
             android:label="@string/title_activity_notifications_settings" />
         <activity
-            android:name=".PrivacySettingsActivity"
+            android:name="com.affecto.chat.PrivacySettingsActivity"
             android:label="@string/title_activity_privacy_settings" />
         <activity
-            android:name=".SupportActivity"
+            android:name="com.affecto.chat.SupportActivity"
             android:label="@string/title_activity_support"
             android:theme="@style/MyMaterialTheme" />
         <activity
-            android:name=".LocationActivity"
+            android:name="com.affecto.chat.LocationActivity"
             android:label="@string/title_activity_location"
             android:theme="@style/MyMaterialTheme" />
         <activity
-            android:name=".DeactivateActivity"
+            android:name="com.affecto.chat.DeactivateActivity"
             android:label="@string/title_activity_deactivate"
             android:theme="@style/MyMaterialTheme" />
         <activity
-            android:name=".AddPhotoActivity"
+            android:name="com.affecto.chat.AddPhotoActivity"
             android:label="@string/title_activity_new_item"
             android:theme="@style/MyMaterialTheme" />
         <activity
-            android:name=".GalleryActivity"
+            android:name="com.affecto.chat.GalleryActivity"
             android:label="@string/title_activity_gallery"
             android:theme="@style/MyMaterialTheme" />
         <activity
-            android:name=".SelectGiftActivity"
+            android:name="com.affecto.chat.SelectGiftActivity"
             android:label="@string/title_activity_select_gift"
             android:theme="@style/MyMaterialTheme" />
         <activity
-            android:name=".SendGiftActivity"
+            android:name="com.affecto.chat.SendGiftActivity"
             android:label="@string/title_activity_send_gift"
             android:theme="@style/MyMaterialTheme" />
         <activity
-            android:name=".GiftsActivity"
+            android:name="com.affecto.chat.GiftsActivity"
             android:label="@string/title_activity_gifts"
             android:theme="@style/MyMaterialTheme" />
         <activity
-            android:name=".FriendsActivity"
+            android:name="com.affecto.chat.FriendsActivity"
             android:label="@string/title_activity_friends"
             android:theme="@style/MyMaterialTheme" />
         <activity
-            android:name=".MatchesActivity"
+            android:name="com.affecto.chat.MatchesActivity"
             android:label="@string/title_activity_matches"
             android:theme="@style/MyMaterialTheme" />
         <activity
-            android:name=".BalanceActivity"
+            android:name="com.affecto.chat.BalanceActivity"
             android:label="@string/title_activity_balance"
             android:screenOrientation="portrait"
             android:theme="@style/MyMaterialTheme">
         </activity>
         <activity
-            android:name=".PeopleNearbyActivity"
+            android:name="com.affecto.chat.PeopleNearbyActivity"
             android:label="@string/title_activity_nearby"
             android:theme="@style/MyMaterialTheme">
 
         </activity>
         <activity
-            android:name=".ViewImageActivity"
+            android:name="com.affecto.chat.ViewImageActivity"
             android:label="@string/title_activity_view_gallery_item"
             android:theme="@style/MyMaterialTheme">
         </activity>
         <activity
-            android:name=".LikersActivity"
+            android:name="com.affecto.chat.LikersActivity"
             android:label="@string/title_activity_likers" />
         <activity
-            android:name=".VideoViewActivity"
+            android:name="com.affecto.chat.VideoViewActivity"
             android:label="@string/title_activity_video_view"
             android:theme="@style/PhotoViewTheme" />
         <activity
-            android:name=".WelcomeActivity"
+            android:name="com.affecto.chat.WelcomeActivity"
             android:label="@string/title_activity_welcome"/>
         <activity
-            android:name=".ReferralsActivity"
+            android:name="com.affecto.chat.ReferralsActivity"
             android:label="@string/title_activity_referrals"
             android:theme="@style/MyMaterialTheme" />
         <activity
-            android:name=".RefillListActivity"
+            android:name="com.affecto.chat.RefillListActivity"
             android:label="@string/title_activity_refill"
             android:theme="@style/MyMaterialTheme" />
         <activity
-            android:name=".SelectFeelingActivity"
+            android:name="com.affecto.chat.SelectFeelingActivity"
             android:label="@string/title_activity_feelings"
             android:theme="@style/MyMaterialTheme" />
     </application>

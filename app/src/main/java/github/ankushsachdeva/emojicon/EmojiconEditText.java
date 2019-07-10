@@ -22,7 +22,7 @@ import android.util.AttributeSet;
 import android.view.KeyEvent;
 import android.widget.EditText;
 
-import ru.ifsoft.chat.R;
+import com.affecto.chat.R;
 
 /**
  * @author Hieu Rocker (rockerhieu@gmail.com).

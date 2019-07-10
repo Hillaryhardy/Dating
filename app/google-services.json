@@ -1,39 +1,37 @@
 {
   "project_info": {
-    "project_number": "345345345345",
-    "firebase_url": "https://messenger-1120.firebaseio.com",
-    "project_id": "messenger-1120",
-    "storage_bucket": "messenger-1120.appspot.com"
+    "project_number": "331663035471",
+    "firebase_url": "https://affecto.firebaseio.com",
+    "project_id": "affecto",
+    "storage_bucket": "affecto.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:345345345345:android:a53b8a306b0341b23",
+        "mobilesdk_app_id": "1:331663035471:android:265523177bb45b23",
         "android_client_info": {
-          "package_name": "ru.ifsoft.chat"
+          "package_name": "com.affecto.chat"
         }
       },
       "oauth_client": [
         {
-          "client_id": "345345345345-ke3c4bjd4a3ilrgha05pl1gcvd3gpon6t.apps.googleuse3rcontent.com",
+          "client_id": "331663035471-e2p1e4mm6ddo57sav335ijmj8gd79gaq.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaS2yCZE_2pbHL7It6v34WjBlbXbUALeErell_AM"
+          "current_key": "AIzaSyAV5dYnZG8uVwMKjQ2Ezrfgw3ZU5asUWqw"
         }
       ],
       "services": {
-        "analytics_service": {
-          "status": 1
-        },
         "appinvite_service": {
-          "status": 1,
-          "other_platform_oauth_client": []
-        },
-        "ads_service": {
-          "status": 2
+          "other_platform_oauth_client": [
+            {
+              "client_id": "331663035471-e2p1e4mm6ddo57sav335ijmj8gd79gaq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }

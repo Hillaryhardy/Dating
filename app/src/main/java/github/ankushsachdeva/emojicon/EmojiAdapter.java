@@ -27,7 +27,7 @@ import java.util.List;
 
 import github.ankushsachdeva.emojicon.EmojiconGridView.OnEmojiconClickedListener;
 import github.ankushsachdeva.emojicon.emoji.Emojicon;
-import ru.ifsoft.chat.R;
+import com.affecto.chat.R;
 
 
 /**

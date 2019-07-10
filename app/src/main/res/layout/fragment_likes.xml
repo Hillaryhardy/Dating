@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="ru.ifsoft.chat.LikesFragment">
+    tools:context="com.affecto.chat.LikesFragment">
 
     <LinearLayout
         android:orientation="vertical"

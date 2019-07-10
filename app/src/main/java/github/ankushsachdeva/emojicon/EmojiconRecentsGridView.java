@@ -20,7 +20,7 @@ import android.content.Context;
 import android.widget.GridView;
 
 import github.ankushsachdeva.emojicon.emoji.Emojicon;
-import ru.ifsoft.chat.R;
+import com.affecto.chat.R;
 
 /**
  * @author Daniele Ricci

@@ -19,7 +19,7 @@ import android.content.Context;
 import android.text.Spannable;
 import android.util.SparseIntArray;
 
-import ru.ifsoft.chat.R;
+import com.affecto.chat.R;
 
 /**
  * @author Hieu Rocker (rockerhieu@gmail.com)
