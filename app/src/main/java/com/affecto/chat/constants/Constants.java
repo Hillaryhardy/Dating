@@ -13,7 +13,7 @@ public interface Constants {
 
     public static final Boolean EMOJI_KEYBOARD = true; // false = Do not display your own Emoji keyboard | true = allow display your own Emoji keyboard
 
-    public static final Boolean FACEBOOK_AUTHORIZATION = true; // false = Do not show buttons Login/Signup with Facebook | true = allow display buttons Login/Signup with Facebook
+    public static final Boolean FACEBOOK_AUTHORIZATION = false; // false = Do not show buttons Login/Signup with Facebook | true = allow display buttons Login/Signup with Facebook
 
     public static final Boolean WEB_SITE_AVAILABLE = true; // false = Do not show menu items (Open in browser, Copy profile link) in profile page | true = show menu items (Open in browser, Copy profile link) in profile page
 
@@ -33,7 +33,7 @@ public interface Constants {
 
     public static final String CLIENT_ID = "1";  // Correct example: 12567 | Incorrect example: 0987
 
-    public static final String API_DOMAIN = "http://chat.ifsoft.ru/";   //url address to which the application sends requests
+    public static final String API_DOMAIN = "http://affecto.fun/";   //url address to which the application sends requests
 
     public static final String API_FILE_EXTENSION = ".inc.php";         // Don`t change value for this constant!
     public static final String API_VERSION = "v2";                      // Don`t change value for this constant!

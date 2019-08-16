@@ -67,7 +67,7 @@ public class WelcomeActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                Intent intent = new Intent(WelcomeActivity.this, MainActivity.class);
+                Intent intent = new Intent(WelcomeActivity.this, ChatActivity.class);
                 intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
                 startActivity(intent);
             }
@@ -85,7 +85,7 @@ public class WelcomeActivity extends AppCompatActivity {
 
                 } else {
 
-                    Intent intent = new Intent(WelcomeActivity.this, MainActivity.class);
+                    Intent intent = new Intent(WelcomeActivity.this, ChatActivity.class);
                     intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
                     startActivity(intent);
                 }

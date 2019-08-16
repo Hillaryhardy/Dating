@@ -17,7 +17,8 @@
             android:layout_height="match_parent"
             android:background="@color/white"
             android:orientation="vertical"
-            tools:context=".MainActivity">
+            tools:context=".PeoplesNearbyActivity
+">
 
             <LinearLayout
                 android:id="@+id/container_toolbar"
@@ -40,29 +41,29 @@
 
         </LinearLayout>
 
-        <LinearLayout
-            android:id="@+id/container_admob"
-            android:layout_width="wrap_content"
-            android:layout_height="50dp"
-            android:layout_alignParentBottom="true"
-            android:layout_centerHorizontal="true"
-            android:background="@android:color/transparent"
-            android:gravity="center"
-            android:orientation="vertical"
-            android:visibility="gone">
+        <!--<LinearLayout-->
+            <!--android:id="@+id/container_admob"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="50dp"-->
+            <!--android:layout_alignParentBottom="true"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:background="@android:color/transparent"-->
+            <!--android:gravity="center"-->
+            <!--android:orientation="vertical"-->
+            <!--android:visibility="gone">-->
 
-            <com.google.android.gms.ads.AdView
-                android:id="@+id/adView"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentBottom="true"
-                android:layout_centerHorizontal="true"
-                ads:adSize="BANNER"
-                ads:adUnitId="@string/banner_ad_unit_id">
+            <!--<com.google.android.gms.ads.AdView-->
+                <!--android:id="@+id/adView"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_alignParentBottom="true"-->
+                <!--android:layout_centerHorizontal="true"-->
+                <!--ads:adSize="BANNER"-->
+                <!--ads:adUnitId="@string/banner_ad_unit_id">-->
 
-            </com.google.android.gms.ads.AdView>
+            <!--</com.google.android.gms.ads.AdView>-->
 
-        </LinearLayout>
+        <!--</LinearLayout>-->
 
     </RelativeLayout>
 

@@ -18,12 +18,6 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.android.volley.toolbox.ImageLoader;
-import com.google.android.gms.ads.AdRequest;
-import com.google.android.gms.ads.AdView;
-import com.google.android.gms.ads.MobileAds;
-import com.pkmmte.view.CircularImageView;
-
 import com.affecto.chat.app.App;
 import com.affecto.chat.common.ActivityBase;
 import com.affecto.chat.dialogs.FriendRequestActionDialog;
@@ -37,6 +31,9 @@ import com.affecto.chat.dialogs.PhotoDeleteDialog;
 import com.affecto.chat.dialogs.ProfileBlockDialog;
 import com.affecto.chat.dialogs.ProfileReportDialog;
 import com.affecto.chat.dialogs.SearchSettingsDialog;
+import com.android.volley.toolbox.ImageLoader;
+import com.google.android.gms.ads.MobileAds;
+import com.pkmmte.view.CircularImageView;
 
 public class MainActivity extends ActivityBase implements ImageChooseDialog.AlertPositiveListener, ProfileReportDialog.AlertPositiveListener, ProfileBlockDialog.AlertPositiveListener, PhotoDeleteDialog.AlertPositiveListener, MyPhotoActionDialog.AlertPositiveListener, FriendRequestActionDialog.AlertPositiveListener, SearchSettingsDialog.AlertPositiveListener, PeopleNearbySettingsDialog.AlertPositiveListener, PeopleNearbySexDialog.AlertPositiveListener, PeopleNearbySexOrientationDialog.AlertPositiveListener, HotgameSettingsDialog.AlertPositiveListener {
 
@@ -147,23 +144,27 @@ public class MainActivity extends ActivityBase implements ImageChooseDialog.Aler
 
         refreshMenu();
 
-        mContainerAdmob = (LinearLayout) findViewById(R.id.container_admob);
+        displayFragment(mNavMenu.findItem(R.id.nav_nearby).getItemId(), mNavMenu.findItem(R.id.nav_nearby).getTitle().toString());
 
-        if (App.getInstance().getAdmob() == ADMOB_ENABLED) {
 
-            mContainerAdmob.setVisibility(View.VISIBLE);
+//        mContainerAdmob = (LinearLayout) findViewById(R.id.container_admob);
 
-            AdView mAdView = (AdView) findViewById(R.id.adView);
-            AdRequest adRequest = new AdRequest.Builder().build();
-            mAdView.loadAd(adRequest);
-        }
-
-        if (!restore) {
-
-            // Show default section "Messages"
-
-            displayFragment(mNavMenu.findItem(R.id.nav_messages).getItemId(), mNavMenu.findItem(R.id.nav_messages).getTitle().toString());
-        }
+//        if (App.getInstance().getAdmob() == ADMOB_ENABLED) {
+//
+//            mContainerAdmob.setVisibility(View.VISIBLE);
+//
+//            AdView mAdView = (AdView) findViewById(R.id.adView);
+//            AdRequest adRequest = new AdRequest.Builder().build();
+//            mAdView.loadAd(adRequest);
+//        }
+//
+//        if (!restore) {
+//
+//            // Show default section "Messages"
+//            // Show default section "Peoples Nearby"
+//
+//            displayFragment(mNavMenu.findItem(R.id.nav_nearby).getItemId(), mNavMenu.findItem(R.id.nav_nearby).getTitle().toString());
+//        }
     }
 
     private void refreshMenu() {

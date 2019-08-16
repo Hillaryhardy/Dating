@@ -1,10 +1,10 @@
 <resources>
-    <string name="app_name">Dating App</string>
+    <string name="app_name">Affecto</string>
     <string name="app_version">4.0</string>
     <string name="app_year">2018</string>
-    <string name="app_copyright">chat.ifsoft.ru</string>
-    <string name="app_email">raccoonsquare@gmail.com</string>
-    <string name="app_site">http://chat.ifsoft.ru</string>
+    <string name="app_copyright">com.affecto.chat</string>
+    <string name="app_email">affectofun@gmail.com</string>
+    <string name="app_site">http://affecto.fun/</string>
 
     <!-- Facebook App Id -->
 
@@ -682,7 +682,7 @@
 
     <string name="label_multi_account_msg">You can not create multi-accounts!</string>
 
-    <string name="channel_name">Dating</string>
+    <string name="channel_name">Affecto</string>
 
     <string name="label_free_messages_count">Free Messages Count</string>
 

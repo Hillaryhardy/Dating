@@ -14,6 +14,10 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.affecto.chat.app.App;
+import com.affecto.chat.constants.Constants;
+import com.affecto.chat.util.CustomRequest;
+import com.affecto.chat.util.Helper;
 import com.android.volley.Request;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
@@ -31,11 +35,6 @@ import org.json.JSONObject;
 
 import java.util.HashMap;
 import java.util.Map;
-
-import com.affecto.chat.app.App;
-import com.affecto.chat.constants.Constants;
-import com.affecto.chat.util.CustomRequest;
-import com.affecto.chat.util.Helper;
 
 public class LoginFragment extends Fragment implements Constants {
 
@@ -373,7 +372,7 @@ public class LoginFragment extends Fragment implements Constants {
                         loading = false;
 
                         hidepDialog();
-                    }
+                   }
                 }, new Response.ErrorListener() {
             @Override
             public void onErrorResponse(VolleyError error) {

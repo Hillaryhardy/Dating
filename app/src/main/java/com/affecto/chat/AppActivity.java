@@ -8,6 +8,9 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ProgressBar;
 
+import com.affecto.chat.app.App;
+import com.affecto.chat.common.ActivityBase;
+import com.affecto.chat.util.CustomRequest;
 import com.android.volley.Request;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
@@ -20,10 +23,6 @@ import org.json.JSONObject;
 
 import java.util.HashMap;
 import java.util.Map;
-
-import com.affecto.chat.app.App;
-import com.affecto.chat.common.ActivityBase;
-import com.affecto.chat.util.CustomRequest;
 
 public class AppActivity extends ActivityBase {
 
